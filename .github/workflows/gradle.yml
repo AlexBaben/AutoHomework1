@@ -11,12 +11,13 @@ on:
   push:
     branches:
       - main
-      - release/*
+      - junit4
+      - testng
   pull_request:
     branches:
       - main
-      - release/*
-
+      - junit4
+      - testng
 jobs:
   build:
 
